@@ -1,0 +1,352 @@
+openapi: 3.0.3
+
+info:
+  title: BR Oto Ölçü Tablosu API
+  description: >
+    Infor Fashion PLM entegrasyonu için AI destekli ölçü tablosu otomasyonu.
+    
+    Bir StyleId alır; PLM'den ürün özelliklerini ve aktif GradeRule listesini çeker,
+    OpenAI ile en uygun GradeRule'u seçer, detaylarını alır ve
+    StyleMeasurement POST payload'unu hazır şekilde döndürür.
+  version: "1.0.0"
+  contact:
+    name: BR Entegrasyon
+
+servers:
+  - url: https://brotomttest-fc132885e8dd.herokuapp.com
+    description: Production (Heroku)
+  - url: http://localhost:3000
+    description: Local Development
+
+tags:
+  - name: health
+    description: Servis durumu
+  - name: measurement
+    description: Ölçü tablosu işlemleri
+
+paths:
+
+  /:
+    get:
+      tags:
+        - health
+      summary: Servis sağlık kontrolü
+      description: Servisin ayakta olduğunu doğrular.
+      operationId: healthCheck
+      responses:
+        "200":
+          description: Servis çalışıyor
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthResponse"
+              example:
+                status: ok
+                service: BR Oto Olcu Tablosu API
+                version: 1.0.0
+
+  /api/style-measurement:
+    post:
+      tags:
+        - measurement
+      summary: StyleMeasurement payload oluştur
+      description: >
+        Verilen StyleId için tam akışı çalıştırır:
+        
+        1. PLM'den Style verisini çeker (beden aralıkları dahil)
+        
+        2. Tüm aktif GradeRule'ları ve ExtendedField açıklamalarını çeker
+        
+        3. OpenAI (gpt-4o-mini) ile ürün özelliklerine en uygun GradeRule'u seçer
+        
+        4. Seçilen GradeRule'un POM ve beden detaylarını PLM view API'sinden çeker
+        
+        5. Style'daki aktif bedenleri GradeRule bedenleriyle kesiştirir
+        
+        6. GradeInc → kümülatif GradeMeas dönüşümünü uygular
+        
+        7. PLM StyleMeasurement endpoint'ine POST edilmeye hazır payload'u döndürür
+      operationId: createStyleMeasurementPayload
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StyleMeasurementRequest"
+            examples:
+              basic:
+                summary: Sadece StyleId
+                value:
+                  styleId: 11617
+              withModuleCode:
+                summary: StyleId + ModuleCode
+                value:
+                  styleId: 11617
+                  moduleCode: "AF"
+      responses:
+        "200":
+          description: Payload başarıyla oluşturuldu
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StyleMeasurementResponse"
+              example:
+                styleId: 11617
+                styleCode: "ACE043271002"
+                gradeRuleId: 179
+                gradeRuleName: "STANDART FİT POLO YAKA UZUN KOLLU TRİKO (ETEK VE KOL RİBANALI)"
+                aiReasoning: >
+                  Ürün triko yapıda, polo yakalı ve standart fit kategorisindedir.
+                  Bu özelliklere en uygun şablon STANDART FİT POLO YAKA UZUN KOLLU TRİKO'dur.
+                payload:
+                  StyleId: 11617
+                  Key: 0
+                  IsMain: 1
+                  ModuleCode: "AF"
+                  ModuleName: "AF"
+                  StyleStatus: 1
+                  SizeRangeId: 4
+                  ModifyId: "124"
+                  RowVersionText: ""
+                  DefaultImageId: null
+                  MainImgsDto: []
+                  FieldValues:
+                    - FieldName: IsMain
+                      Value: 1
+                    - FieldName: StyleId
+                      Value: 11617
+                    - FieldName: SizeRangeId
+                      Value: 4
+                    - FieldName: ToleranceFormat
+                      Value: 2
+                    - FieldName: Status
+                      Value: 1
+                    - FieldName: SettingFormat
+                      Value: 2
+                    - FieldName: GradeRuleFormat
+                      Value: 2
+                    - FieldName: MeasurementView
+                      Value: 1
+                    - FieldName: FractionDenominator
+                      Value: 16
+                    - FieldName: NumScale
+                      Value: 0
+                    - FieldName: SampleSizeId
+                      Value: 49
+                  SubEntities:
+                    - Key: 0
+                      TempKey: "MTc3NTgwMjEw...0"
+                      SubEntity: StyleMeasurementSizes
+                      FieldValues:
+                        - FieldName: Seq
+                          Value: 3
+                        - FieldName: SizeId
+                          Value: 47
+                    - Key: 0
+                      TempKey: "MTc3NTgwMjEw...p0"
+                      SubEntity: StyleMeasurementPom
+                      FieldValues:
+                        - FieldName: PomCode
+                          Value: A1
+                        - FieldName: PomName
+                          Value: "Neck/Collar Opening Seam to Seam - Relaxed"
+                        - FieldName: GradeRuleId
+                          Value: 179
+                      SubEntities:
+                        - Key: 0
+                          TempKey: "MTc3NTgwMjEw...p0s0"
+                          SubEntity: StyleMeasurementPomSizes
+                          FieldValues:
+                            - FieldName: GradeIncDecimal
+                              Value: -0.1969
+                            - FieldName: GradeMeasDecimal
+                              Value: 0.3937
+        "400":
+          description: styleId eksik veya geçersiz
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                error: "styleId zorunludur."
+        "404":
+          description: Belirtilen StyleId PLM'de bulunamadı
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                error: "StyleId 99999 bulunamadı."
+        "500":
+          description: Sunucu hatası (PLM bağlantısı, OpenAI hatası vb.)
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                error: "Request failed with status code 401"
+                details: null
+
+components:
+  schemas:
+
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: ok
+        service:
+          type: string
+          example: BR Oto Olcu Tablosu API
+        version:
+          type: string
+          example: "1.0.0"
+
+    StyleMeasurementRequest:
+      type: object
+      required:
+        - styleId
+      properties:
+        styleId:
+          type: integer
+          description: PLM'deki ürünün StyleId değeri
+          example: 11617
+        moduleCode:
+          type: string
+          description: >
+            Ölçü modülü kodu. PLM'de StyleMeasurement modülünün kodu.
+            Belirtilmezse varsayılan olarak "AF" kullanılır.
+          default: "AF"
+          example: "AF"
+
+    FieldValue:
+      type: object
+      description: PLM generic alan-değer çifti
+      properties:
+        FieldName:
+          type: string
+          example: SizeId
+        Value:
+          description: Alan değeri (string, number, boolean veya null olabilir)
+          example: 47
+
+    SubEntity:
+      type: object
+      description: StyleMeasurementSizes veya StyleMeasurementPom alt entity'si
+      properties:
+        Key:
+          type: integer
+          example: 0
+        TempKey:
+          type: string
+          description: Base64 timestamp tabanlı geçici anahtar
+          example: "MTc3NTgwMjEwMDAwMA==0"
+        SubEntity:
+          type: string
+          enum:
+            - StyleMeasurementSizes
+            - StyleMeasurementPom
+            - StyleMeasurementPomSizes
+        FieldValues:
+          type: array
+          items:
+            $ref: "#/components/schemas/FieldValue"
+        SubEntities:
+          type: array
+          description: >
+            Yalnızca StyleMeasurementPom tipinde bulunur.
+            Her POM için beden bazlı GradeInc/GradeMeas değerlerini içerir.
+          items:
+            $ref: "#/components/schemas/SubEntity"
+
+    StyleMeasurementPayload:
+      type: object
+      description: PLM StyleMeasurement endpoint'ine POST edilecek payload
+      properties:
+        StyleId:
+          type: integer
+          example: 11617
+        Key:
+          type: integer
+          example: 0
+        IsMain:
+          type: integer
+          example: 1
+        ModuleCode:
+          type: string
+          example: "AF"
+        ModuleName:
+          type: string
+          example: "AF"
+        StyleStatus:
+          type: integer
+          example: 1
+        SizeRangeId:
+          type: integer
+          description: GradeRule'dan gelen beden aralığı ID'si
+          example: 4
+        ModifyId:
+          type: string
+          example: "124"
+        RowVersionText:
+          type: string
+          example: ""
+        DefaultImageId:
+          nullable: true
+          example: null
+        MainImgsDto:
+          type: array
+          items: {}
+          example: []
+        FieldValues:
+          type: array
+          description: >
+            Ölçü tablosu üst düzey alanları:
+            SampleSizeId, ToleranceFormat, GradeRuleFormat, MeasurementView, vb.
+          items:
+            $ref: "#/components/schemas/FieldValue"
+        SubEntities:
+          type: array
+          description: >
+            Beden listesi (StyleMeasurementSizes) ve POM listesi (StyleMeasurementPom).
+            Her POM kendi beden-ölçü alt entity'lerini (StyleMeasurementPomSizes) içerir.
+          items:
+            $ref: "#/components/schemas/SubEntity"
+
+    StyleMeasurementResponse:
+      type: object
+      properties:
+        styleId:
+          type: integer
+          description: İstek edilen StyleId
+          example: 11617
+        styleCode:
+          type: string
+          description: PLM'deki ürün kodu
+          example: "ACE043271002"
+        gradeRuleId:
+          type: integer
+          description: AI tarafından seçilen GradeRule ID'si
+          example: 179
+        gradeRuleName:
+          type: string
+          description: Seçilen GradeRule'un adı
+          example: "STANDART FİT POLO YAKA UZUN KOLLU TRİKO (ETEK VE KOL RİBANALI)"
+        aiReasoning:
+          type: string
+          description: OpenAI'ın seçim gerekçesi
+          example: "Ürün triko yapıda ve polo yakalıdır, bu nedenle en uygun şablon seçilmiştir."
+        payload:
+          $ref: "#/components/schemas/StyleMeasurementPayload"
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Hata mesajı
+          example: "styleId zorunludur."
+        details:
+          description: PLM veya OpenAI'dan gelen ham hata detayı (varsa)
+          nullable: true
