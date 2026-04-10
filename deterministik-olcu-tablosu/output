@@ -1,0 +1,3224 @@
+{
+  "StyleId": 44462,
+  "Key": 0,
+  "IsMain": 1,
+  "ModuleCode": "AF--P-TESTVARYANTS-2",
+  "ModuleName": "AF--P-TESTVARYANTS-2",
+  "StyleStatus": 1,
+  "SizeRangeId": 653,
+  "ModifyId": "124",
+  "RowVersionText": "",
+  "DefaultImageId": null,
+  "MainImgsDto": [],
+  "FieldValues": [
+    {
+      "FieldName": "IsMain",
+      "Value": 1
+    },
+    {
+      "FieldName": "StyleId",
+      "Value": 44462
+    },
+    {
+      "FieldName": "SizeRangeId",
+      "Value": 653
+    },
+    {
+      "FieldName": "ToleranceFormat",
+      "Value": 2
+    },
+    {
+      "FieldName": "Status",
+      "Value": 1
+    },
+    {
+      "FieldName": "SettingFormat",
+      "Value": 2
+    },
+    {
+      "FieldName": "GradeRuleFormat",
+      "Value": 2
+    },
+    {
+      "FieldName": "MeasurementView",
+      "Value": 1
+    },
+    {
+      "FieldName": "FractionDenominator",
+      "Value": 16
+    },
+    {
+      "FieldName": "NumScale",
+      "Value": 0
+    },
+    {
+      "FieldName": "RowVersionText",
+      "Value": ""
+    },
+    {
+      "FieldName": "InitSampSizeId",
+      "Value": 0
+    },
+    {
+      "FieldName": "ModifyId",
+      "Value": 0
+    },
+    {
+      "FieldName": "SampleSizeId",
+      "Value": 653
+    }
+  ],
+  "SubEntities": [
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==0",
+      "SubEntity": "StyleMeasurementSizes",
+      "FieldValues": [
+        {
+          "FieldName": "Seq",
+          "Value": 1
+        },
+        {
+          "FieldName": "SizeId",
+          "Value": 653
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p0",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 10
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC03"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ana Ünitenin Taşıma Kapasitesi (Ara kat takılı değilken) (kg)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 459
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 549,
+              "RefId": 459,
+              "Culture": "en-us",
+              "Name": "Ana Ünitenin Taşıma Kapasitesi (Ara kat takılı değilken) (kg)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p0s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p1",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 20
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC04"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ara Kat Taşıma Kapasitesi (kg)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 460
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 550,
+              "RefId": 460,
+              "Culture": "en-us",
+              "Name": "Ara Kat Taşıma Kapasitesi (kg)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p1s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p2",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 30
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC09-1"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "İç Yatak Ölçüsü (Uzunluk)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 465
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 555,
+              "RefId": 465,
+              "Culture": "en-us",
+              "Name": "İç Yatak Ölçüsü (Uzunluk)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p2s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p3",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 31
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC09-2"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "İç Yatak Ölçüsü (Genişlik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 488
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 578,
+              "RefId": 488,
+              "Culture": "en-us",
+              "Name": "İç Yatak Ölçüsü (Genişlik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p3s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p4",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 40
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC12-1"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Kutu Ölçüleri (Uzunluk)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 468
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 558,
+              "RefId": 468,
+              "Culture": "en-us",
+              "Name": "Kutu Ölçüleri (Uzunluk)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p4s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p5",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 41
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC12-2"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Kutu Ölçüleri (Genişllik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 492
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 582,
+              "RefId": 492,
+              "Culture": "en-us",
+              "Name": "Kutu Ölçüleri (Genişllik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p5s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p6",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 42
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC12-3"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Kutu Ölçüleri (Yükseklik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 493
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 583,
+              "RefId": 493,
+              "Culture": "en-us",
+              "Name": "Kutu Ölçüleri (Yükseklik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p6s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p7",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 50
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC18-1"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Açık Ölçüleri(Uzunluk)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 474
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 564,
+              "RefId": 474,
+              "Culture": "en-us",
+              "Name": "Ürünün Açık Ölçüleri(Uzunluk)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p7s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p8",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 51
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC18-2"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Açık Ölçüleri(Genişlik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 499
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 589,
+              "RefId": 499,
+              "Culture": "en-us",
+              "Name": "Ürünün Açık Ölçüleri(Genişlik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p8s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p9",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 52
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC18-3"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Açık Ölçüleri(Yükseklik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 498
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 588,
+              "RefId": 498,
+              "Culture": "en-us",
+              "Name": "Ürünün Açık Ölçüleri(Yükseklik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p9s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p10",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 60
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC19"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Ağırlığı (kg)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 475
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 565,
+              "RefId": 475,
+              "Culture": "en-us",
+              "Name": "Ürünün Ağırlığı (kg)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p10s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p11",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 70
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC22-1"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Katlanmış Ölçüleri(Uzunluk)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 478
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 568,
+              "RefId": 478,
+              "Culture": "en-us",
+              "Name": "Ürünün Katlanmış Ölçüleri(Uzunluk)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p11s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p12",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 71
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC22-2"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Katlanmış Ölçüleri(Genişlik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 505
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 595,
+              "RefId": 505,
+              "Culture": "en-us",
+              "Name": "Ürünün Katlanmış Ölçüleri(Genişlik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p12s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": 0,
+      "TempKey": "MTc3NTU1MDMyODU5NA==p13",
+      "SubEntity": "StyleMeasurementPom",
+      "FieldValues": [
+        {
+          "FieldName": "Priority",
+          "Value": 2
+        },
+        {
+          "FieldName": "Seq",
+          "Value": 72
+        },
+        {
+          "FieldName": "PomCode",
+          "Value": "TC22-3"
+        },
+        {
+          "FieldName": "PomName",
+          "Value": "Ürünün Katlanmış Ölçüleri(Yükseklik)"
+        },
+        {
+          "FieldName": "GradeRuleName",
+          "Value": "0905-Park Yataklar ve Oyun Alanları"
+        },
+        {
+          "FieldName": "Description",
+          "Value": ""
+        },
+        {
+          "FieldName": "Status",
+          "Value": 1
+        },
+        {
+          "FieldName": "OperationalStatus",
+          "Value": 1
+        },
+        {
+          "FieldName": "PartId"
+        },
+        {
+          "FieldName": "Image"
+        },
+        {
+          "FieldName": "TolerancePlus"
+        },
+        {
+          "FieldName": "ToleranceMinus"
+        },
+        {
+          "FieldName": "StandardIncrement"
+        },
+        {
+          "FieldName": "InitialMeasurement"
+        },
+        {
+          "FieldName": "PomId",
+          "Value": 504
+        },
+        {
+          "FieldName": "IsOnTheFly"
+        },
+        {
+          "FieldName": "GradeRuleId",
+          "Value": 16
+        },
+        {
+          "FieldName": "TolerancePlusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "TolerancePlusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "TolerancePlusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "ToleranceMinusMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "ToleranceMinusDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "RevMeasFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasMetric",
+          "Value": "0"
+        },
+        {
+          "FieldName": "RevMeasDecimal",
+          "Value": "0"
+        },
+        {
+          "FieldName": "IsDeleted",
+          "Value": 0
+        },
+        {
+          "FieldName": "ImageOFileName"
+        },
+        {
+          "FieldName": "StandardIncrementFraction",
+          "Value": "0"
+        },
+        {
+          "FieldName": "StandardIncrementMetric",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "StandardIncrementDecimal",
+          "Value": 0.0
+        },
+        {
+          "FieldName": "InitMeasDec"
+        },
+        {
+          "FieldName": "InitMeasFrac"
+        },
+        {
+          "FieldName": "InitMeasMet"
+        },
+        {
+          "FieldName": "NameCulture"
+        },
+        {
+          "FieldName": "DescriptionCulture"
+        },
+        {
+          "FieldName": "ImageCustom"
+        },
+        {
+          "FieldName": "ImageThumb"
+        },
+        {
+          "FieldName": "POMCultureInfos",
+          "Value": [
+            {
+              "CultureInfoId": 594,
+              "RefId": 504,
+              "Culture": "en-us",
+              "Name": "Ürünün Katlanmış Ölçüleri(Yükseklik)",
+              "ModifyId": 1,
+              "ModifyDate": "2025-12-26T00:00:00",
+              "IsOriginal": true,
+              "IsSysLang": false
+            }
+          ]
+        }
+      ],
+      "SubEntities": [
+        {
+          "Key": 0,
+          "TempKey": "MTc3NTU1MDMyODU5NA==p13s0",
+          "SubEntity": "StyleMeasurementPomSizes",
+          "FieldValues": [
+            {
+              "FieldName": "StyleMeasurementSizeId",
+              "Value": "MTc3NTU1MDMyODU5NA==0"
+            },
+            {
+              "FieldName": "GradeIncDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeIncFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "GradeMeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "GradeMeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "InitMeasDecimal",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasMetric",
+              "Value": 0
+            },
+            {
+              "FieldName": "InitMeasFraction",
+              "Value": 0
+            },
+            {
+              "FieldName": "Init_MeasDecimal",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasMetric",
+              "Value": 0.0
+            },
+            {
+              "FieldName": "Init_MeasFraction",
+              "Value": "0"
+            },
+            {
+              "FieldName": "IsDeleted",
+              "Value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
