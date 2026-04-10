@@ -129,4 +129,18 @@ async function getGradeRuleDetail(gradeRuleId) {
   return response.data;
 }
 
-module.exports = { getStyleById, getActiveGradeRules, getExtendedFieldDropdowns, getGradeRuleDetail };
+/**
+ * StyleMeasurement payload'unu PLM'e kaydeder.
+ * Endpoint: POST /FASHIONPLM/pdm/api/pdm/style/measurement/save
+ */
+async function saveStyleMeasurement(payload) {
+  const headers = await getHeaders();
+
+  const url = `${process.env.ION_API_URL}/${TENANT_ID}/FASHIONPLM/pdm/api/pdm/style/measurement/save`;
+
+  console.log(`[PLM] StyleMeasurement kaydediliyor... StyleId: ${payload.StyleId}`);
+  const response = await axios.post(url, payload, { headers });
+  return response.data;
+}
+
+module.exports = { getStyleById, getActiveGradeRules, getExtendedFieldDropdowns, getGradeRuleDetail, saveStyleMeasurement };

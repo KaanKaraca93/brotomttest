@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const express      = require('express');
 const tokenService = require('./src/auth');
-const { getStyleById, getActiveGradeRules, getExtendedFieldDropdowns, getGradeRuleDetail } = require('./src/services/plmService');
+const { getStyleById, getActiveGradeRules, getExtendedFieldDropdowns, getGradeRuleDetail, saveStyleMeasurement } = require('./src/services/plmService');
 const { selectGradeRule } = require('./src/services/aiService');
 const { buildPayload }    = require('./src/services/measurementBuilder');
 
@@ -75,6 +75,11 @@ app.post('/api/style-measurement', async (req, res) => {
     console.log(`  GradeRule     : [${aiResult.gradeRuleId}] ${aiResult.gradeRuleName}`);
     console.log(`  SizeRange     : ${payload.SizeRangeId} | Beden: ${payload.SubEntities.filter(e => e.SubEntity === 'StyleMeasurementSizes').length}`);
     console.log(`  POM sayisi    : ${payload.SubEntities.filter(e => e.SubEntity === 'StyleMeasurementPom').length}`);
+
+    // 6. PLM'e kaydet
+    const plmResponse = await saveStyleMeasurement(payload);
+
+    console.log(`  [OK] PLM kayit basarili`);
     console.log(`${'='.repeat(60)}\n`);
 
     return res.json({
@@ -83,7 +88,7 @@ app.post('/api/style-measurement', async (req, res) => {
       gradeRuleId:    aiResult.gradeRuleId,
       gradeRuleName:  aiResult.gradeRuleName,
       aiReasoning:    aiResult.reasoning,
-      payload,
+      plmResponse,
     });
 
   } catch (err) {
